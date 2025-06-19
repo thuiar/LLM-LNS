@@ -33,10 +33,7 @@ pip install -r requirements.txt
 
 ### 1. Configure API Access
 
-Set up your LLM API credentials (e.g., OpenAI):
-```bash
-export OPENAI_API_KEY="your_api_key_here"
-```
+Replace `your_llm_endpoint` and `your_api_key` in the code with your actual LLM endpoint and API key.
 
 ### 2. Run Examples
 
