@@ -200,7 +200,7 @@ class GetPrompts():
         'current_solution': current_solution[i] indicates the current value of the i-th decision variable. current_solution is a Numpy array with length n.\
         'objective_coefficient': objective_coefficient[i] indicates the objective function coefficient corresponding to the i-th decision variable. objective_coefficient is a Numpy array with length n.\
         'initial_solution', 'current_solution', and 'objective_coefficient' are numpy arrays with length n. The i-th element of the arrays corresponds to the i-th decision variable. \
-        This corresponds to the Maximum Indepent K-Set MILP problem, where all decision variables are binary (0-1 variables), and all constraints are in the form of LHS ≤ RHS.\
+        This corresponds to the Maximum Independent K-Set MILP problem, where all decision variables are binary (0-1 variables), and all constraints are in the form of LHS ≤ RHS.\
         'neighbor_score' is also a numpy array that you need to create manually. The i-th element of the arrays corresponds to the i-th decision variable."
         # Other descriptions for the prompt function
         self.prompt_other_inf = "All are Numpy arrays. I don't give you 'neighbor_score' so that you need to create it manually. The length of the 'neighbor_score' array is also 'n'."
